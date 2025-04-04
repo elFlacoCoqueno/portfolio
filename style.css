@@ -16,7 +16,7 @@
 	box-sizing: border-box;
 }
 html {
-	background-color: #ddd;
+	background: linear-gradient(#ddd 50%, #444 50%);
 	scroll-behavior: smooth;
 }
 header {
@@ -201,9 +201,8 @@ header > nav > a:hover {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	background: linear-gradient(150deg, #222, #000);
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	transform: translateY(-10px);
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
 }
 #contacto h1 {
 	grid-column: 1 / span 3;
